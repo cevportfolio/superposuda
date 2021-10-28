@@ -1,5 +1,5 @@
 <?php
-
+require 'C:\Users\deadp\superposuda\vendor\autoload.php';
 use RetailCrm\Api\Interfaces\ClientExceptionInterface;
 use RetailCrm\Api\Interfaces\ApiExceptionInterface;
 use RetailCrm\Api\Factory\SimpleClientFactory;
