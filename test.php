@@ -6,12 +6,12 @@ use RetailCrm\Api\Factory\SimpleClientFactory;
 use RetailCrm\Api\Model\Entity\Customers\Customer;
 use RetailCrm\Api\Model\Request\Customers\CustomersCreateRequest;
 
-$client = SimpleClientFactory::createClient('https://test.retailcrm.pro', 'apiKey');
+$client = SimpleClientFactory::createClient('https://cevladimir.retailcrm.ru', 'NuNuPM4dOQ5XE8QPWtp1ejb3TZwmhucW');
 
 $request = new CustomersCreateRequest();
 $request->customer = new Customer();
 
-$request->site = 'aliexpress';
+$request->site = 'cevladimir';
 $request->customer->email = 'john.doe@example.com';
 $request->customer->firstName = 'John';
 $request->customer->lastName = 'Doe';
