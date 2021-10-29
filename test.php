@@ -13,8 +13,8 @@ $request->customer = new Customer();
 
 $request->site = 'cevladimir';
 $request->customer->email = 'john.doe@example.com';
-$request->customer->firstName = 'John';
-$request->customer->lastName = 'Doe';
+$request->customer->firstName = 'Vladimir';
+$request->customer->lastName = 'Che';
 
 try {
     $response = $client->customers->create($request);
