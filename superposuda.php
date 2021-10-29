@@ -8,7 +8,7 @@ use RetailCrm\Api\Model\Entity\Orders\Items\OrderProduct;
 use RetailCrm\Api\Model\Entity\Orders\Order;
 use RetailCrm\Api\Model\Request\Orders\OrdersCreateRequest;
 
-$client = SimpleClientFactory::createClient('https://cevladimir.retailcrm.ru', 'NuNuPM4dOQ5XE8QPWtp1ejb3TZwmhucW');
+$client = SimpleClientFactory::createClient('https://superposuda.retailcrm.ru', 'QlnRWTTWw9lv3kjxy1A8byjUmBQedYqb');
 
 $request         = new OrdersCreateRequest();
 $order           = new Order();
